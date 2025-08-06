@@ -2,7 +2,7 @@
 
 A production-ready template for building modern web applications with Next.js, TypeScript, Tailwind CSS, and Supabase.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14+ with App Router
 - **Language**: TypeScript
@@ -14,7 +14,7 @@ A production-ready template for building modern web applications with Next.js, T
 - **Testing**: Jest + React Testing Library
 - **Deployment**: Vercel
 
-## 🛠️ Getting Started
+## Getting Started
 
 1. **Setup environment**
    ```bash
@@ -32,7 +32,7 @@ A production-ready template for building modern web applications with Next.js, T
    npm run dev
    ```
 
-## 📋 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -41,11 +41,11 @@ A production-ready template for building modern web applications with Next.js, T
 - `npm run lint` - Lint code
 - `npm run type-check` - TypeScript type checking
 
-## 🧪 Testing
+## Testing
 
 This project requires **80% minimum test coverage**. Write tests before implementing features.
 
-## 🚀 Deployment
+## Deployment
 
 Optimized for Vercel deployment with automatic CI/CD workflows.
 
@@ -57,11 +57,11 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 ```
 
-## 📖 Documentation
+## Documentation
 
 - [Coding Standards](./CODING_STANDARDS.md)
 - See `/docs` folder for detailed guides
 
 ---
 
-**Happy coding! 🎉**
+**Happy coding!**

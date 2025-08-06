@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverActions: true,
-  },
-  
   images: {
     remotePatterns: [
       {
@@ -14,7 +10,7 @@ const nextConfig = {
       },
     ],
   },
-  
+
   async headers() {
     return [
       {
@@ -46,15 +42,15 @@ const nextConfig = {
       },
     ]
   },
-  
+
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-  
+
   typescript: {
     ignoreBuildErrors: false,
   },
-  
+
   eslint: {
     ignoreDuringBuilds: false,
   },
